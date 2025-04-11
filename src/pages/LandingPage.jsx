@@ -5,9 +5,11 @@ import TechPort from '../components/techPorth/TechPort'
 import UpcomingEvent from '../components/upcomingEvents/UpcomingEvent'
 import EventCategories from '../components/EventCategories/EventCategories'
 import Footer from '../components/footer/Footer'
+
+
 const LandingPage = () => {
   return (
-    <div className='space-y-10'>
+    <div className='space-y-14'>
         {/* Hero */}
       <section>
         <Hero />

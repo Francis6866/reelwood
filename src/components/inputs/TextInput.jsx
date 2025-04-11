@@ -3,7 +3,7 @@ import React from 'react'
 
 const TextInput = ({ label, ...props }) => {
     const [fields, meta] = useField(props)
-    const styles = props?.block === 'true' ? 'outline-0 border-2 bg-white w-full px-4 py-2 rounded placeholder:text-black' : 'outline-0 border-2 border-[#124AC3] w-full placeholder:text-center px-4 py-2 rounded'
+    const styles = props?.block === 'true' ? 'outline-0 border-0 bg-white w-full px-4 py-2 rounded placeholder:text-black' : 'outline-0 border-2 border-[#124AC3] w-full placeholder:text-center px-4 py-2 rounded'
   return (
     <div>
       {
